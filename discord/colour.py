@@ -151,7 +151,18 @@ class Colour:
     def dark_teal(cls):
         """A factory method that returns a :class:`Colour` with a value of ``0x11806a``."""
         return cls(0x11806a)
-
+    
+    @classmethod
+    def cyan(cls):
+        """A factory method that returns a :class:`Colour` with a value of ``0x00FFFF``."""
+        return cls(0x00FFFF)
+    
+    @classmethod
+    def dark_cyan(cls):
+        """A factory method that returns a :class:`Colour` with a value of ``0x008b8b``."""
+        return cls(0x008b8b)        
+    
+    
     @classmethod
     def green(cls):
         """A factory method that returns a :class:`Colour` with a value of ``0x2ecc71``."""
